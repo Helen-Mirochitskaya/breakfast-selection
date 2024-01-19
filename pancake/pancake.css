@@ -1,0 +1,103 @@
+body {
+    background-image: url(pancake.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+     }
+ 
+ #container {
+     border: 3px solid #041C32;
+     border-radius: 20px;
+     width: 415px;
+     height: 590px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: #F9F3EE;
+     padding: 15px;
+     margin-top: 20px;
+     margin-left: 30px;
+     }
+ 
+ #head {
+     align-self: center;
+     font-family: 'Roboto Serif', serif;
+     font-size: 15px;
+     color: #041C32;
+ }
+ 
+ #box {
+     display: flex;
+     flex-direction: column;
+     
+ }
+ 
+ h3 {
+     align-self: center;
+     font-family: 'Roboto Serif', serif;
+     font-size: 19px;
+     color: #041C32;
+ 
+ }
+ 
+ ul {
+     font-family: 'Roboto Serif', serif;
+     font-size: 15px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ #btnTimer {
+     padding: 8px;
+     font-size: 18px;
+     font-family: 'Roboto Serif', serif;
+     margin: 5px;
+     border: 3px solid #041C32;
+     color: #041C32;
+     background-color: #F9F3EE;
+     border-radius: 20px;
+ }
+ 
+ #timer {
+     background-color: #F9F3EE;
+     width: 120px;
+     height: 60px;
+     padding: 20px;
+     font-size: 50px;
+     border: 3px solid #041C32;
+     border-radius: 20px;
+     margin-left: 150px;
+     margin-top: 200px;
+     color: #041C32;
+     display: none;
+ }
+ 
+ @media all and (max-width: 500px) {
+ 
+     body {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+ 
+     #box {
+         display: flex;
+         flex-direction: column;
+         padding: 3px;
+         width: 250px;
+     
+     }
+     h3 {
+         font-size: 14px;
+     }
+     ul {
+         font-size: 12px;
+     }
+ 
+     #timer {
+         margin-right: 100px;
+     }
+     
+ }
+ 
+ 
